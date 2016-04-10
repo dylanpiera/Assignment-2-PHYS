@@ -1,9 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 
 namespace Opdracht2_Movement {
-    class PlayingState : GameObjectList {
-        public PlayingState()
-            : base() {
+    internal class PlayingState : GameObjectList {
+        public PlayingState() {
             //Step 1.1: Create a PhysicsObject, place it in the middle of the screen and add it to the PlayingState.
             // Use the sprite "PurpleSoftColorBall" and scale = 30
 

@@ -1,17 +1,17 @@
 ﻿using Microsoft.Xna.Framework;
 
 namespace Opdracht2_Movement {
-    class PhysicsObject : SpriteGameObject {
-        private float radius;
+    internal class PhysicsObject : SpriteGameObject {
+        private readonly float radius;
         protected Vector2 acceleration;
 
         public PhysicsObject(string assetName, Vector2 position, Vector2 velocity, float radius, Vector2 acceleration, string id)
             : base(assetName, 1, id) {
             this.position = position;
             this.velocity = velocity;
-            this.origin = new Vector2(Width / 2, Height / 2);
+            origin = new Vector2(Width / 2f, Height / 2f);
             this.radius = radius;
-            this.scale = radius * 2 / Width;
+            scale = radius * 2 / Width;
             this.acceleration = acceleration;
         }
 

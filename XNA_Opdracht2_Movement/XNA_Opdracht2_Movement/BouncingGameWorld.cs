@@ -9,8 +9,7 @@ namespace Opdracht2_Movement {
     /// This is the main type for your game
     /// </summary>
     public class BouncingGameWorld : GameEnvironment {
-        public BouncingGameWorld()
-            : base() {
+        public BouncingGameWorld() {
             Content.RootDirectory = "Content";
         }
 
@@ -22,7 +21,7 @@ namespace Opdracht2_Movement {
             base.LoadContent();
 
             screen = new Point(1600, 1200);
-            this.SetFullScreen(false);
+            SetFullScreen(false);
             gameStateManager.AddGameState("playingState", new PlayingState());
 
             gameStateManager.SwitchTo("playingState");

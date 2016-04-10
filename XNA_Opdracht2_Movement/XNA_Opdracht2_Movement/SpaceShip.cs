@@ -1,14 +1,14 @@
 ﻿using Microsoft.Xna.Framework;
 
 namespace Opdracht2_Movement {
-    class SpaceShip : PhysicsObject {
+    internal class SpaceShip : PhysicsObject {
         //Step 2.2: Declare a variable for the target position of the ship 
 
         //Step 2.3: Declare a variable for keeping track of the rotation of the ship
 
         public SpaceShip(string assetName, Vector2 position)
             : base(assetName, position, Vector2.Zero, 50f, Vector2.Zero, "ship") {
-            this.layer = 2;
+            layer = 2;
             //Step 2.4: Initialize this object's fields
         }
 

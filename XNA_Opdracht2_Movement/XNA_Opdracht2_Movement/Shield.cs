@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 
 namespace Opdracht2_Movement {
-    class Shield : PhysicsObject {
+    internal class Shield : PhysicsObject {
         //Step 4.2: Declare a variable for the target of the shield
 
         public Shield(string assetName, SpaceShip ship, Vector2 velocity)
