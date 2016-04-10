@@ -1,5 +1,3 @@
-using System;
-
 namespace XNA_Opdracht2_Movement {
 #if WINDOWS || XBOX
     static class Program
