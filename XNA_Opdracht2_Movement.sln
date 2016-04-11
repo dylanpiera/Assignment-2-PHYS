@@ -5,7 +5,9 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA_Opdracht2_Movement", "XNA_Opdracht2_Movement\XNA_Opdracht2_Movement\XNA_Opdracht2_Movement.csproj", "{B3A29401-7AE1-4C57-B6E2-AEE1AA8A3551}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "XNA_Opdracht2_MovementContent", "XNA_Opdracht2_Movement\XNA_Opdracht2_MovementContent\XNA_Opdracht2_MovementContent.contentproj", "{54CDBD3F-7616-4FE3-9708-30293D7D67F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA_Opdracht2_MovementContent", "XNA_Opdracht2_Movement\XNA_Opdracht2_MovementContent\XNA_Opdracht2_MovementContent.contentproj", "{54CDBD3F-7616-4FE3-9708-30293D7D67F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameManagement", "XNA_Opdracht2_Movement\GameManagement\GameManagement.csproj", "{81460380-4FF0-4EC0-9586-389E598C9F92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{B3A29401-7AE1-4C57-B6E2-AEE1AA8A3551}.Release|x86.Build.0 = Release|x86
 		{54CDBD3F-7616-4FE3-9708-30293D7D67F7}.Debug|x86.ActiveCfg = Debug|x86
 		{54CDBD3F-7616-4FE3-9708-30293D7D67F7}.Release|x86.ActiveCfg = Release|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Debug|x86.ActiveCfg = Debug|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Debug|x86.Build.0 = Debug|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Release|x86.ActiveCfg = Release|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
