@@ -20,7 +20,7 @@ namespace Opdracht2_Movement {
         protected override void LoadContent() {
             base.LoadContent();
 
-            screen = new Point(1600, 1200);
+            screen = new Point(1080, 720);
             SetFullScreen(false);
             gameStateManager.AddGameState("playingState", new PlayingState());
 

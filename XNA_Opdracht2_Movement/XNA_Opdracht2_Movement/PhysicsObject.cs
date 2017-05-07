@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace Opdracht2_Movement {
     internal class PhysicsObject : SpriteGameObject {
@@ -35,6 +36,11 @@ namespace Opdracht2_Movement {
 
             velocity += acceleration;
             base.Update(gameTime);
+        }
+
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            base.Draw(gameTime, spriteBatch);
         }
     }
 }
